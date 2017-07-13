@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "knex": "knex",
     "babel-node": "babel-node",
     "start": "nodemon --exec npm run babel-node app/index.js",
     "test": "NODE_ENV='test' mocha --compilers js:babel-register,js:babel-polyfill \"test/*test.js\" --reporter progress",
